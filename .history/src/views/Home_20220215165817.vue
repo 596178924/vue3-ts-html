@@ -1,0 +1,57 @@
+<template>
+	<div class="home">
+		<p
+			class="red"
+		>useStoreCounter.doubleCounter''useStoreCounter.doubleCounter''useStoreCounter.doubleCounter''useStoreCounter.doubleCounter</p>
+		<p class="red">
+			useStoreCounter.doubleCounter''useStoreCounter.doubleCounter''useStoreCounter.doubleCounter'
+			<span>useStoreCounter.doubleCounter</span>
+		</p>
+		<ul class="list">
+			<li>
+				useStoreCounter.doubleCounter
+				useStoreCounter.doubleCounter
+				useStoreCounter.doubleCounter
+				useStoreCounter.doubleCounter
+			</li>
+		</ul>
+		<div class="container">
+			<img src="https://ichef.bbci.co.uk/images/ic/976x549_b/p0121stm.jpg" />
+			<div class="caption">
+				<h3>Morgana</h3>
+				<p>played by Katie McGrath</p>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script setup lang="ts" >
+</script>
+<style lang="scss" scoped>
+.red {
+	color: #ff0000;
+	&::selection {
+		color: gold;
+		background-color: #0011ff;
+	}
+	&::first-line {
+		background-color: #2bff00;
+	}
+	&::first-letter {
+		background-color: #9196d1;
+	}
+	::slotted(span) {
+		font-weight: bold;
+	}
+}
+.list {
+	li {
+		&::marker {
+			content: "△";
+			margin-right: 1rem;
+			color: red;
+			font-size: 1.5em;
+		}
+	}
+}
+</style>
