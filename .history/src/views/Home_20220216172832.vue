@@ -5,7 +5,6 @@
         <!-- <button  v-copy @click="say">自定义指令</button> -->
         <!-- <input v-focus type="text" placeholder="自动获取焦点"> -->
         <p v-copy:pointer>copy text</p>
-        <p v-copy>copy text</p>
     </div>
 </template>
 

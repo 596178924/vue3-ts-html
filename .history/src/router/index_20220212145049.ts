@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
 
-export const routes: Array<RouteRecordRaw> = [
+const routes: Array<RouteRecordRaw> = [
 	{
 		path: '/',
 		name: 'Home',

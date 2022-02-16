@@ -1,0 +1,4 @@
+interface Binding {
+    arg: unknown,
+    
+}

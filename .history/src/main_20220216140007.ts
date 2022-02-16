@@ -6,5 +6,5 @@ import directive from "./utils/directives";
 const app = createApp(App);
 app.use(createPinia());
 app.use(router);
-app.use(directive);
+directive(app)
 app.mount('#app');

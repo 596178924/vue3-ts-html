@@ -1,0 +1,12 @@
+<template>
+    <div class="">
+        <!-- <p v-copy>自定义指令</p> -->
+        <input type="text" placeholder="自动获取焦点">
+    </div>
+</template>
+
+<script setup lang="ts" >
+
+</script>
+<style lang="scss" scoped>
+</style>

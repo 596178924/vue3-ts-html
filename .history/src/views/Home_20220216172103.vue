@@ -1,0 +1,17 @@
+<template>
+    <div class="">
+        <button v-copy="'自定义指令 copy text'" @click="say">自定义指令</button>
+        <button v-copy="{text:'自定义指令 copy text'}" @click="say">自定义指令</button>
+        <button  v-copy @click="say">自定义指令</button>
+        <!-- <input v-focus type="text" placeholder="自动获取焦点"> -->
+    </div>
+</template>
+
+<script setup lang="ts" >
+function say() {
+    console.log('组件内的点击事件');
+    
+}
+</script>
+<style lang="scss" scoped>
+</style>
